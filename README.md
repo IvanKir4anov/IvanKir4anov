@@ -1,16 +1,13 @@
-## Hi there 👋
+# Иван Кирчанов · QA Lead
 
-<!--
-**IvanKir4anov/IvanKir4anov** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Руковожу командой тестирования и продолжаю писать автотесты. На GitHub показываю, как проектирую проверки на Playwright и TypeScript, запускаю их в CI и разбираю нестабильные прогоны.
 
-Here are some ideas to get you started:
+## Conduit E2E Tests
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[Conduit E2E Tests](https://github.com/IvanKir4anov/conduit-e2e-tests) — набор UI- и API-тестов для приложения RealWorld Conduit. Приложение поднимается в Docker Compose. В GitHub Actions быстрый smoke-прогон идёт перед регрессом, а ночной прогон отдельно проверяет стабильность тестов.
+
+- [Запуск проекта и структура тестов](https://github.com/IvanKir4anov/conduit-e2e-tests/blob/main/README.ru.md)
+- [Пример: подготовка данных через API, проверка комментариев через интерфейс](https://github.com/IvanKir4anov/conduit-e2e-tests/blob/main/tests/hybrid/article-comments.spec.ts)
+- [Правила разбора нестабильных тестов и выхода из карантина](https://github.com/IvanKir4anov/conduit-e2e-tests/blob/main/docs/stability.md)
+
+[LinkedIn](https://www.linkedin.com/in/ivan-kirchanov/)
